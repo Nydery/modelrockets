@@ -1,0 +1,7 @@
+section {
+  margin:20px;
+}
+
+section + section{
+  margin-bottom: 0px;
+}
