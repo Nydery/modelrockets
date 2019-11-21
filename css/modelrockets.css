@@ -1,7 +1,56 @@
+body {
+  margin-
+}
+
 section {
   margin-top:20px;
 }
 
 section + section{
   margin-bottom: 0px;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+li#manuallist {
+  border-radius: 4px;
+  background-color: white;
+}
+
+ol{
+  list-style: none;
+}
+
+img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.boldStepNumber {
+  font-size:55px;
+  /*background-color: green;*/
+  padding: 8px 10px 30px 0px;
+
+  border-radius: 6px;
+}
+
+.description {
+  font-size: 20px;
+  padding-left: 92px;
+}
+
+.stepHeader {
+  font-size: 25px;
+}
+
+.disclaimer {
+  color: red;
+  text-transform: uppercase;
 }
