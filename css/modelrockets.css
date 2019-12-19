@@ -1,7 +1,13 @@
+nav a {
+  transition: background-color 0.25s;
+}
+
 body {
+  /*
   background-color: lightgray;
   margin:0px;
   margin-bottom: 100px;
+  */
 }
 
 section {
@@ -23,8 +29,9 @@ footer {
 }
 
 li.manuallist {
-  border-radius: 4px;
-  background-color: white;
+  border-radius: 5px;
+  background-color: black;
+  margin: 20px;
 }
 
 ol{
@@ -32,8 +39,10 @@ ol{
 }
 
 img{
-  border-radius: 5px;
-  margin: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: auto;
 }
 
 img.imgRight {
@@ -45,14 +54,17 @@ img.imgLeft {
 }
 
 .boldStepNumber {
+  background-color: inherit;
+  color: yellow;
   font-size:55px;
-  /*background-color: green;*/
   padding: 8px 10px 30px 0px;
 
   border-radius: 6px;
 }
 
 .description {
+  background-color: inherit;
+  color: yellow;
   font-size: 20px;
   padding-left: 92px;
 }
@@ -67,7 +79,10 @@ img.imgLeft {
 }
 
 .heading{
+}
 
+#heading {
+  padding: 20px;
 }
 
 .ptext {
