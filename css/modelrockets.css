@@ -1,6 +1,9 @@
-nav {
+#nav {
+  margin: 0;
+  margin-bottom: 200px;
   top: 0;
   position: fixed;
+  width: 100%
 }
 
 nav a {
@@ -8,7 +11,10 @@ nav a {
 }
 
 .heading{
+/*
+  top: 10px;
   position: fixed;
+  */
 }
 
 body {
