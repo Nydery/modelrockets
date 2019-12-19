@@ -1,6 +1,10 @@
+nav {
+  top: 0;
+  position: fixed;
+}
+
 nav a {
   transition: background-color 0.25s;
-  position: fixed;
 }
 
 .heading{
