@@ -111,3 +111,7 @@ img.imgLeft {
   font-weight: normal;
   font-size: 25px;
 }
+
+.changelogentry {
+  margin: 50px;
+}
