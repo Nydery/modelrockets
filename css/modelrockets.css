@@ -1,9 +1,12 @@
 #nav {
-  margin: 0;
-  margin-bottom: 200px;
+  margin-top: 0;
   top: 0;
   position: fixed;
   width: 100%
+}
+
+#content {
+  margin-top: 200px;
 }
 
 nav a {
