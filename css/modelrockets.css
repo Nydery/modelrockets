@@ -65,3 +65,13 @@ img.imgLeft {
   color: red;
   text-transform: uppercase;
 }
+
+.heading{
+
+}
+
+.ptext {
+  color: yellow;
+  font-weight: normal;
+  font-size: 25px;
+}
