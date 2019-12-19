@@ -5,14 +5,14 @@
   width: 100%
 }
 
+#content {
+  margin-top: 200px;
+}
+
 @media (max-width: 600px) {
   #content {
     margin-top: 300px;
   }
-}
-
-#content {
-  margin-top: 200px;
 }
 
 nav a {
@@ -48,6 +48,7 @@ footer {
 li.manuallist {
   border-radius: 5px;
   background-color: black;
+  color:white;
   margin: 20px;
 }
 
@@ -91,6 +92,7 @@ img.imgLeft {
 }
 
 .disclaimer {
+  background-color: inherit;
   color: red;
   text-transform: uppercase;
 }
@@ -100,6 +102,7 @@ img.imgLeft {
 }
 
 .ptext {
+  background-color: inherit;
   color: yellow;
   font-weight: normal;
   font-size: 25px;
