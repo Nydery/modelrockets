@@ -1,3 +1,20 @@
+/* ******/
+/*Media */
+/********/
+@media (max-width: 600px) {
+  #content {
+    /*margin-top: 350px;*/
+    margin-top: 0px;
+  }
+
+  #nav {
+    position: static;
+  }
+}
+
+/* ******/
+/*Id's  */
+/********/
 #nav {
   margin-top: 0;
   top: 0;
@@ -10,71 +27,15 @@
   margin-top: 200px;
 }
 
-@media (max-width: 600px) {
-  #content {
-    /*margin-top: 350px;*/
-    margin-top: 0px;
-  }
-
-  #nav {
-    position: static;
-  }
+#heading {
+  padding: 20px;
 }
 
-nav a {
-  transition: background-color 0.25s;
-}
-
+/* *******/
+/*Classes*/
+/*********/
 .heading{
-
-}
-
-body {
-
-}
-
-section {
-  margin-top:20px;
-  margin-bottom: 20px;
-}
-
-section + section{
-  margin-bottom: 0px;
-}
-
-footer {
-  position: fixed;
-  height: 50px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-}
-
-li.manuallist {
-  border-radius: 5px;
-  background-color: black;
-  color:white;
-  margin: 20px;
-}
-
-ol{
-  list-style: none;
-}
-
-img{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  width: 100%;
-  height: auto;
-}
-
-img.imgRight {
-  float: right
-}
-
-img.imgLeft {
-  float: left;
+  margin-bottom: 0;
 }
 
 .boldStepNumber {
@@ -103,10 +64,6 @@ img.imgLeft {
   text-transform: uppercase;
 }
 
-#heading {
-  padding: 20px;
-}
-
 .ptext {
   background-color: inherit;
   color: yellow;
@@ -116,4 +73,64 @@ img.imgLeft {
 
 .changelogentry {
   margin: 50px;
+}
+
+
+
+nav a {
+  transition: background-color 0.25s;
+}
+
+
+section {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+section + section{
+  margin-bottom: 0px;
+}
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+ol{
+  list-style: none;
+}
+
+img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+dt {
+  background-color: inherit;
+  color: white;
+
+  margin-top: 20px;
+}
+
+img.imgRight {
+  float: right
+}
+
+img.imgLeft {
+  float: left;
+}
+
+li.manuallist {
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+  margin: 20px;
 }
