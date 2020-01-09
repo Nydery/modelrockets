@@ -10,6 +10,10 @@
   #nav {
     position: static;
   }
+
+  li.manuallist {
+    margin-top: 40px;
+  }
 }
 
 /* ******/
@@ -62,6 +66,7 @@
   background-color: inherit;
   color: red;
   text-transform: uppercase;
+  border: 2px solid red;
 }
 
 .ptext {
