@@ -11,8 +11,8 @@
     position: static;
   }
 
-  li.manuallist {
-    margin-top: 40px;
+  .disclaimer {
+    margin-top: 100px;
   }
 }
 
