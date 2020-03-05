@@ -81,6 +81,18 @@
 }
 
 
+.linkToWebsite {
+  background-color: inherit;
+  color: white;
+}
+
+.linkToWebsite:hover {
+  background-color: inherit;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 
 nav a {
   transition: background-color 0.25s;
