@@ -8,6 +8,6 @@ function setContentMarginTop() {
     document.getElementById('content').style.marginTop = height;
   }
   else {
-    document.getElementById('content').style.marginTop = 200px;
+    document.getElementById('content').style.marginTop = 200;
   }
 }
