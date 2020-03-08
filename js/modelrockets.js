@@ -1,7 +1,13 @@
 function setContentMarginTop() {
-  let height = document.getElementById('nav').height;
+  var elem = document.getElementById('nav');
+  if(!isNaN(elem)) {
+    let height = elem.height;
 
-  console.log(height);
+    console.log(height);
 
-  document.getElementById('content').style.marginTop = height;
+    document.getElementById('content').style.marginTop = height;
+  }
+  else {
+    document.getElementById('content').style.marginTop = 200px;
+  }
 }
