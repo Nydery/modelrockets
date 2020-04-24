@@ -58,6 +58,15 @@
   color: yellow;
   font-size: 20px;
   padding-left: 92px;
+  padding-bottom: 10px;
+}
+.descriptionList{
+  background-color: inherit;
+  color: yellow;
+  font-size: 20px;
+  padding-left: 110px;
+  top: 0px;
+  padding-bottom: 10px;
 }
 
 .stepHeader {
